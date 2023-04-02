@@ -1,0 +1,923 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+    padding:0px;
+    margin:0px;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box
+}
+
+.header1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px;
+    height: 72px; 
+    background-color: #f4f5f7;
+}
+/* .left
+{
+    display: flex;
+}
+.right
+{
+    display: flex;
+} */
+.left ul  
+{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    line-height: 1rem;
+    color: #42526e;
+    cursor: pointer;
+}
+.right ul 
+{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    color:#0052cc;
+    font-family: "Ubuntu", sans-serif;   
+    font-size: 15px;
+    cursor: pointer;
+}
+.menu
+{
+    display: flex;
+    margin-left: 8px;
+}
+.menu li:hover
+{
+    background-color: #dfe1e5;
+    border-radius: 3px;
+}
+.right li:hover
+{
+    background-color: #dfe1e5;
+    border-radius: 3px;
+}
+.left ul li
+{
+    padding: 6px;
+    margin-left: 10px;
+}
+.right ul li
+{
+    padding: 6px;
+    margin-left: 10px;
+}
+.left ul li a 
+{
+    margin-right: 8px;
+}
+.right ul li a 
+{
+    margin-right: 8px; 
+}
+/*style coding for header section*/
+.logo
+{
+    height: 25px;
+    width: 190px;
+}
+.fa-magnifying-glass
+{
+    color:#8d9096;
+}
+.right .fa-user
+{
+    padding: 6px;
+    background-color: #8d9096;
+    color:white;
+    border-radius: 50px;
+}
+.btn
+{
+    font-weight: bold;
+    padding-left: 5px;
+}
+/*header2 coding for sticky*/
+.header2
+{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 90px;
+    background-color: white;
+    color: #0052cc;
+    position: sticky;
+    top:0;
+    z-index: 50;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    box-shadow: 1px 3px 5px #dfe1e5;
+}
+.lft ul
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+}
+.rit ul
+{
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+}
+.lft ul li{
+    padding: 15px;
+}
+.rit ul li{
+    padding: 8px;
+}
+.btn1
+{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #0052cc ;
+    border-radius: 3px;
+}
+.section1
+{
+    display: flex;
+    padding: 50px 90px;
+    color: #172b4d;
+    padding-right: 190px;
+}
+.rit-img
+{
+    height: 550px;
+    width: 500px;
+}
+.btn2
+{
+font-weight: bold;
+font-size: 15px;
+padding: 5px;
+border-radius: 3px;
+background: #ffab00;
+border: 1px solid #ffab00;
+color: #172b4d;
+height: 35px;
+width: 100px;
+text-align: center;
+margin-top: 20px;
+}
+.lef-sec-heading
+{
+    font-size: 44px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+.lef-sec-para
+{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.7em;
+}
+.section2
+{
+    background-color: #deebff;
+    height:1100px;
+    position: relative;
+    margin-top: 30px;
+}
+.video-sec1
+{
+    display: flex;
+    margin: 0 300px;
+    height: 200px;
+    box-shadow: 1px 2px 5px;
+    top: -64px;
+    position: absolute;
+    border-radius: 5px;
+    justify-content: center;
+}
+.video-img
+{
+    height:200px;
+    width: 300px; 
+}
+
+.video-sec1-rit
+{
+    padding: 50px;
+    width: 450px;
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.video-sec1-rit a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.section2-heading
+{
+    padding-top: 250px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    padding-left: 260px;
+    padding-right: 250px;
+    text-align: center;
+    letter-spacing: normal;
+    color: #172b4d;   
+    font-style: normal;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.card-video
+{
+    display: flex;
+}
+.card-sec
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+    padding-left: 50px;
+}
+.video-sec
+{
+    margin-top: 30px;
+    padding: 35px;
+}
+/*.card1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    width: 360px;
+    height: 200px;
+}*/
+.card1{
+    display: flex;
+    flex-direction: row;
+    padding:6px;
+}
+.card-cont1
+{
+    display: flex;
+    flex-direction: column;
+    width:360px;
+    padding: 20px;
+}
+.card2{
+    display: flex;
+    flex-direction: row;
+    padding:6px;
+}
+.card-cont2
+{
+    display: flex;
+    flex-direction: column;
+    width:360px;
+    padding: 20px;
+}
+.card3{
+    display: flex;
+    flex-direction: row;
+    padding:6px;
+}
+.card-cont3
+{
+    display: flex;
+    flex-direction: column;
+    width:360px;
+    padding: 20px;
+}
+.bar
+{
+    width: 8px;
+    background-color: #42526e;   
+    height: 200px;
+    
+}
+.card-cont1:hover
+{
+    background-color: rgba(255, 255, 255, 0.314);
+}
+/*.card2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    width: 360px;
+    height: 200px;
+}*/
+.card-cont2:hover
+{
+    background-color: rgba(255, 255, 255, 0.314);
+}
+/*.card3
+{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    width: 360px;
+    height: 200px;
+}*/
+.card-cont3:hover
+{
+    background-color: rgba(255, 255, 255, 0.314);
+}
+.card-p1
+{
+   
+    font-size: 12px;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.card-p2
+{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.card-p3
+{
+    margin-top: 30px;
+    line-height: 1.3em;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.sec3-heading
+{
+    text-align: center;
+    padding: 55px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #172b4d;
+}
+.cont-sec
+{
+    display: flex;
+    margin:50px
+}
+.cont1
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.cont2
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.cont3
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.cont4
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.icon
+{
+    border-radius: 50px;
+    height: 45px;
+    justify-content: center;
+    background-color: #8080dd;
+    width: 46px;
+    display: flex;
+    align-items: center;
+
+}
+.head
+{
+   font-size: 20px;
+   margin-top:30px;
+   color: #172b4d;
+   font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.para
+{
+   font-size: 17px;
+   margin-top: 20px;
+   line-height: 1.5em;
+   color: #1f2631;
+   text-align: left;
+   font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.section4
+{
+    background-color: #eae6ff;
+}
+.sec4-part1
+{
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+}
+.sec4-head
+{
+    font-size: 44px;
+    margin-top: 30px;
+    color: #091E42;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.sec4-para
+{
+    font-size: 18px;
+    margin-left: 200px;
+    color: #091E42;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.sec4-link
+{
+    font-size: 15px;
+    color: #0052cc;
+    margin-top: 30px;
+}
+.button-sec
+{
+    
+    padding: 0px 90px;
+   
+    display: flex;
+}
+.buttons{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    color: #5e605e;
+    font-size: 20px;
+    background-color: white;
+    margin:0px 8px;
+}
+.buttons:hover
+{
+    color: #5353b6;
+}
+.button1
+{
+    width:180px;
+}
+.button1:active
+{
+    background-color: #434392;
+}
+.button2
+{
+    width:200px;
+}
+.button3
+{
+    width:310px;
+}
+.button4
+{
+    width:200px;
+}
+.button5
+{
+    width:200px;
+}
+.button1-card
+{
+    display: none;
+    padding:40px 80px 80px 80px;
+    justify-content: space-around;
+}
+
+.button1-card.active {
+    display: flex;
+}
+
+.btn1-card1
+{
+    display: flex;
+    height: 275px;
+    padding: 30px;
+    flex-direction: column;
+    box-shadow: 1px 2px 5px;
+    border-radius: 8px;
+    background-color: white;
+    color: #4e5450;
+    margin: 17px;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.btn1-card2
+{
+    display: flex;
+    height: 275px;
+    padding: 30px;
+    flex-direction: column;
+    box-shadow: 1px 2px 5px;
+    border-radius: 8px;
+    background-color: white;
+    margin: 17px;
+    color: #4e5450;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.btn1-card3
+{
+    display: flex;
+    height: 275px;
+    padding: 30px;
+    flex-direction: column;
+    box-shadow: 1px 2px 5px;
+    border-radius: 8px;
+    background-color: white;
+    margin: 17px;
+    color: #4e5450;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.btn1-card4
+{
+    display: flex;
+    height: 275px;
+    padding: 30px;
+    flex-direction: column;
+    box-shadow: 1px 2px 5px;
+    border-radius: 8px;
+    background-color: white;
+    margin: 17px;
+    color: #4e5450;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.image-sec
+{
+    display: flex;
+    font-size: 14px;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    color: #97a5a5;
+}
+.btn-card-head
+{
+    padding-top: 30px;
+}
+.btn-card-para
+{
+    padding-top: 30px;
+}
+.img-para
+{
+    margin-left: 10px;
+}
+.sec-4link
+{
+    font-size: 15px;
+    color: #0052cc;
+    cursor: pointer;
+    text-align: center;
+    margin-top: -20px;
+}
+.section5
+{
+    background-image: linear-gradient(180deg, #EAE6FF 0%, rgba(234, 230, 255, 0) 100%);
+    height: 700px;
+}
+.sec5-head
+{
+    font-size: 38px;
+    padding-top: 80px;
+    text-align: center;
+    color: #091E42;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.sec5-para
+{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 200px;
+    color: #091E42;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.sec5-para2
+{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    color:#091E42
+}
+
+.img-card1
+{
+    background-color: white;
+    border-radius: 5px;
+    height: 150px;
+    width: 255px;
+    padding: 55px;
+    margin: 15px;
+    box-shadow: 2px 6px 10px #ccc;
+   
+}
+.img-card1:hover{
+    box-shadow: 1px 2px 5px;
+}
+.card-img
+{
+    height:40px;
+    width: 120px;
+}
+.sec5-card
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 40px 100px 70px 100px;
+}
+.sec5-link
+{
+    text-align: center;
+    font-size: 16px;
+    color: #0052cc;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.hd
+{
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 100px;
+    text-align: center;
+    color: #091E42;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.blur-img
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px 218px
+}
+.blur-img1
+{
+    padding: 29px;
+}
+.section6
+{
+    background-image: linear-gradient(180deg, #DEEBFF 0%, #FFFFFF 100%);
+}
+.sec6-head
+{
+    text-align: center;
+    color: #091E42;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 50px;
+    font-size: 2.25rem;
+    line-height: 1.33333333;
+}
+.sec6-card
+{
+    display: flex;
+    padding: 0px 65px;
+}
+.sec6-cards-1
+{
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+}
+.sec6-heads
+{
+    font-size: 22px;
+    color: #172b4d;
+}
+.sec6-para
+{
+    margin-top: 20px;
+    color: #172b4d;
+    line-height: 1.5em;
+    font-size: 17px;
+}
+.sec6-link
+{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #0052cc;
+}
+.card-cont
+{
+    padding: 30px;
+}
+.sec6-4card
+{
+    display: flex;
+    padding: 0px 80px;
+}
+.sec6-cards-2
+{
+    margin: 20px;
+    text-align: center;
+}
+.sec7-head
+{
+    text-align: center;
+    color: #091E42;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 50px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.33333333;
+}
+.sec7-card
+{
+    display: flex;
+    padding: 0px 60px;
+}
+.part1{
+    
+    font-size: 28px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 6px 10px #ccc;
+    height: 92px;
+    width: 354px;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
+.part2
+{
+    margin: 2px;
+    background-color: white;
+    height: 300px;
+    border-radius: 2px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 6px 10px #ccc;
+}
+.sec7-cards-1
+{
+    margin: 30px;
+}
+.sec7-card-head1
+{
+    font-size: 45px;
+    color: #091E42;
+}
+.sec7-card-head2
+{
+    font-size: 20px;
+    color: #091E42;
+}
+.sec7-card-head3
+{
+    font-size: 15px;
+    color: #091E42;
+}
+.sec7-btn1
+{
+    font-size: 15px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid blue;
+    margin-bottom: 30px;
+    padding: 5px;
+    color: #033a97;
+}
+.sec7-card-para
+{
+    color: #091E42;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+.small-sec
+{
+    margin: 45px 84px;
+    background-color: white;
+    height: 125px;
+    border-radius: 14px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px -3px 10px #ccc;
+}
+.section8
+{
+    background-color: #eae6ff;
+    display: flex;
+    padding: 20px 100px;
+
+}
+.sec8-lft
+{
+    display: flex;
+    flex-direction: column;  
+    padding: 20px;
+    margin-left: 90px;
+}
+.sec8-rit
+{
+    display: flex;
+    margin-left: 60px;
+}
+.sec8-head
+{
+    font-size:32px;
+    margin-top: 120px;
+}
+.sec8-para
+{
+    font-size:17px;
+    margin-top: 50px;
+}
+.sec8-link
+{
+    font-size:14px;
+    margin-top: 30px;
+    color: #0052cc;
+}
+.sec8-img
+{
+    margin-top: 20px;
+}
+.section9
+{
+    background-color: #c0b6f2;
+    background-image: url(./images/CTA_Graphic_Left.webp), url(./images/CTA_Graphic_Right.webp);
+}
+.sec9-head
+{
+    font-size:32px;
+    padding: 50px 300px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.sec9-btn
+{
+     
+    font-weight: bold;
+    font-size: 15px;
+    background-color: blue;
+    border-radius: 5px;
+    font-style: bold;
+    border: 1px solid blue;
+    padding: 11px;
+    color: white;
+    width: 107px;
+    margin: 0px 40px 40px 40px;
+}
+.style-btn
+{
+  
+    display: flex;
+    justify-content: center;
+}
+.footerpage
+{
+    display:flex;
+    color: #091e42;
+    background-color: #fff;
+}
+.footsec1
+{
+    padding: 60px 50px 50px 60px;
+    display: flex;
+    font-size: 14px;
+    
+}
+.footerlogo
+{
+    padding-top: 62px;
+    padding-left: 120px;
+    padding-right: 40px;
+}
+.footsec1 ul li
+{
+  display: flex;
+  line-height: 2em;
+  
+  
+}
+.list-head
+{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.list-link
+{
+    color: blue;
+    margin-top: 20px;
+}
+.footsec1 ul
+{
+    color: #42526e;
+}
